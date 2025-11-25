@@ -8,6 +8,7 @@ export default {
 	dts: true,
 	sourcemap: true,
 	outDir: "dist",
+	target: "es2023",
 	skipNodeModulesBundle: true,
 	clean: true,
 	minify: true,
