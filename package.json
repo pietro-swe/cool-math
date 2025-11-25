@@ -1,6 +1,6 @@
 {
 	"name": "cool-math",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "A set of very cool math functions for your JS code 😎.",
 	"type": "module",
 	"main": "dist/index.js",
