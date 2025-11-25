@@ -1,5 +1,12 @@
 export * from "./errors/DivideByZeroError.mjs";
 
+export * from "./modules/advanced/correlation.mjs";
+export * from "./modules/advanced/covariance.mjs";
+export * from "./modules/advanced/lerp.mjs";
+export * from "./modules/advanced/moving-average.mjs";
+export * from "./modules/advanced/weighted-average.mjs";
+export * from "./modules/advanced/z-score.mjs";
+
 export * from "./modules/arithmetic/add.mjs";
 export * from "./modules/arithmetic/divide.mjs";
 export * from "./modules/arithmetic/multiply.mjs";
