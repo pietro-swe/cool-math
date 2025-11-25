@@ -8,7 +8,7 @@ This project aims to provide a set of (cool 😎) mathematical functions that ar
 - A variety of mathematical functions;
 - Easy to use and integrate into your projects;
 - Open source and free to use under the MIT License;
-- ESM support (currently not supporting CJS);
+- ESM support (no support for CJS);
 - Can be used both in Node.js and in the browser;
 - It's very cool! 😎.
 
@@ -40,7 +40,7 @@ const result = add(6, 7);
 console.log(result);
 ```
 
-And import directly from the modules you need:
+And even import directly from the modules you need:
 
 ```javascript
 import { stdDev } from "cool-math/statistics/std-dev";
