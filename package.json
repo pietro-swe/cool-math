@@ -1,10 +1,14 @@
 {
 	"name": "cool-math",
 	"version": "0.0.1",
-	"description": "A set of (cool) mathematical functions that are missing on the JS std. library.",
+	"description": "A set of very cool math functions for your JS code 😎.",
 	"type": "module",
 	"main": "dist/index.js",
 	"module": "dist/index.js",
+	"private": false,
+	"engines": {
+		"node": ">=22"
+	},
 	"exports": {
 		".": "./dist/index.js"
 	},
@@ -19,6 +23,7 @@
 		"mathematical functions",
 		"cool"
 	],
+	"types": "dist/index.d.ts",
 	"sideEffects": false,
 	"scripts": {
 		"build": "tsup",
