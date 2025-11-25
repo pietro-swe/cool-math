@@ -9,6 +9,7 @@ This project aims to provide a set of (cool) mathematical functions that are mis
 - Easy to use and integrate into your projects;
 - Open source and free to use under the MIT License;
 - ESM support (currently not supporting CJS);
+- Can be used both in Node.js and in the browser.
 
 ## Installation
 
