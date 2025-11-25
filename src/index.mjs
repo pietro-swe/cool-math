@@ -16,13 +16,10 @@ export * from "./modules/collections/product.mjs";
 export * from "./modules/collections/range.mjs";
 export * from "./modules/collections/summation.mjs";
 
-export * from "./modules/guards/isInteger.mjs";
-export * from "./modules/guards/isFloat.mjs";
-export * from "./modules/guards/isFiniteNumber.mjs";
-export * from "./modules/guards/isPositive.mjs";
-export * from "./modules/guards/isNegative.mjs";
-export * from "./modules/guards/isZero.mjs";
-export * from "./modules/guards/isBetween.mjs";
+export * from "./modules/guards/is-between.mjs";
+export * from "./modules/guards/is-float.mjs";
+export * from "./modules/guards/is-negative.mjs";
+export * from "./modules/guards/is-positive.mjs";
 
 export * from "./modules/safety/clamp.mjs";
 export * from "./modules/safety/normalize.mjs";

@@ -10,7 +10,8 @@
 		"node": ">=22"
 	},
 	"exports": {
-		".": "./dist/index.js"
+		".": "./dist/index.js",
+		"./*": "./dist/*"
 	},
 	"files": [
 		"dist",

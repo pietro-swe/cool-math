@@ -31,6 +31,26 @@ const result = coolMath.add(40, 2);
 console.log(result);
 ```
 
+You can also import specific functions:
+
+```javascript
+import { add } from "cool-math";
+
+const result = add(6, 7);
+console.log(result);
+```
+
+And import directly from the modules you need:
+
+```javascript
+import { stdDev } from "cool-math/statistics/std-dev";
+
+const data = [10, 12, 23, 23, 16, 23, 21, 16];
+
+const result = stdDev(data);
+console.log(result);
+```
+
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to Cool Math, please fork the repository and submit a pull request.
