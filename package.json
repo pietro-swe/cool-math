@@ -1,11 +1,14 @@
 {
 	"name": "cool-math",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"description": "A set of very cool math functions for your JS code 😎.",
 	"type": "module",
 	"main": "dist/index.js",
 	"module": "dist/index.js",
 	"private": false,
+	"repository": {
+		"url": "https://github.com/pietro-swe/cool-math"
+	},
 	"engines": {
 		"node": ">=22"
 	},
