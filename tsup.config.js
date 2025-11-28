@@ -2,9 +2,10 @@
  * @type {import('tsup').Options}
  */
 export default {
-	entry: ["src/index.mjs"],
+	entry: ["src/**/*.mjs"],
 	format: ["esm"],
-	splitting: false,
+	bundle: false,
+	splitting: true,
 	dts: true,
 	sourcemap: true,
 	outDir: "dist",

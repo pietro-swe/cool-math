@@ -1,6 +1,6 @@
 {
 	"name": "cool-math",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"description": "A set of very cool math functions for your JS code 😎.",
 	"type": "module",
 	"main": "dist/index.js",
@@ -11,7 +11,12 @@
 	},
 	"exports": {
 		".": "./dist/index.js",
-		"./*": "./dist/*"
+		"./statistics/*": "./dist/modules/statistics/*",
+		"./guards/*": "./dist/modules/guards/*",
+		"./safety/*": "./dist/modules/safety/*",
+		"./advanced/*": "./dist/modules/advanced/*",
+		"./arithmetic/*": "./dist/modules/arithmetic/*",
+		"./collections/*": "./dist/modules/collections/*"
 	},
 	"files": [
 		"dist",
