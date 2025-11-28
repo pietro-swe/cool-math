@@ -1,6 +1,6 @@
 {
 	"name": "cool-math",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "A set of very cool math functions for your JS code 😎.",
 	"type": "module",
 	"main": "dist/index.js",
@@ -32,7 +32,7 @@
 		"mathematical functions",
 		"cool"
 	],
-	"types": "dist/index.d.ts",
+	"types": "dist/index.d.mts",
 	"sideEffects": false,
 	"scripts": {
 		"test": "vitest",
