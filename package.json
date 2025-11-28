@@ -1,6 +1,6 @@
 {
 	"name": "cool-math",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "A set of very cool math functions for your JS code 😎.",
 	"type": "module",
 	"main": "dist/index.js",
@@ -13,13 +13,34 @@
 		"node": ">=22"
 	},
 	"exports": {
-		".": "./dist/index.js",
-		"./statistics/*": "./dist/modules/statistics/*",
-		"./guards/*": "./dist/modules/guards/*",
-		"./safety/*": "./dist/modules/safety/*",
-		"./advanced/*": "./dist/modules/advanced/*",
-		"./arithmetic/*": "./dist/modules/arithmetic/*",
-		"./collections/*": "./dist/modules/collections/*"
+		".": {
+			"types": "./dist/index.d.mts",
+			"default": "./dist/index.js"
+		},
+		"./statistics/*": {
+			"types": "./dist/modules/statistics/*.d.mts",
+			"default": "./dist/modules/statistics/*.js"
+		},
+		"./guards/*": {
+			"types": "./dist/modules/guards/*.d.mts",
+			"default": "./dist/modules/guards/*.js"
+		},
+		"./safety/*": {
+			"types": "./dist/modules/safety/*.d.mts",
+			"default": "./dist/modules/safety/*.js"
+		},
+		"./advanced/*": {
+			"types": "./dist/modules/advanced/*.d.mts",
+			"default": "./dist/modules/advanced/*.js"
+		},
+		"./arithmetic/*": {
+			"types": "./dist/modules/arithmetic/*.d.mts",
+			"default": "./dist/modules/arithmetic/*.js"
+		},
+		"./collections/*": {
+			"types": "./dist/modules/collections/*.d.mts",
+			"default": "./dist/modules/collections/*.js"
+		}
 	},
 	"files": [
 		"dist",
