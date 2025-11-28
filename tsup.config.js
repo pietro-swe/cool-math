@@ -6,7 +6,7 @@ export default {
 	format: ["esm"],
 	bundle: false,
 	splitting: true,
-	dts: true,
+	dts: false,
 	sourcemap: true,
 	outDir: "dist",
 	target: "es2023",

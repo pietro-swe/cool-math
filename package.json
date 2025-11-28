@@ -1,6 +1,6 @@
 {
 	"name": "cool-math",
-	"version": "0.0.7",
+	"version": "1.0.0",
 	"description": "A set of very cool math functions for your JS code 😎.",
 	"type": "module",
 	"main": "dist/index.js",
@@ -35,8 +35,10 @@
 	"types": "dist/index.d.ts",
 	"sideEffects": false,
 	"scripts": {
-		"build": "tsup",
-		"test": "vitest"
+		"test": "vitest",
+		"build": "npm run build:js && npm run build:types",
+		"build:js": "tsup",
+		"build:types": "tsc"
 	},
 	"author": {
 		"name": "Pietro Piva Vieira",

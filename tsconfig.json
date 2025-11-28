@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"lib": [
+			"ES2023"
+		],
+		"target": "esnext",
+		"allowJs": true,
+		"declaration": true,
+		"emitDeclarationOnly": true,
+		"outDir": "dist",
+		"strict": false,
+		"noEmit": false,
+		"checkJs": true
+	},
+	"include": [
+		"src/**/*"
+	]
+}
